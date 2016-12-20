@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281CE2471E09DC1700744963 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281CE2461E09DC1700744963 /* Card.swift */; };
 		288685BB1E09D1B000A42107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288685BA1E09D1B000A42107 /* AppDelegate.swift */; };
 		288685BD1E09D1B100A42107 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288685BC1E09D1B100A42107 /* ViewController.swift */; };
 		288685C21E09D1B100A42107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288685C11E09D1B100A42107 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		281CE2461E09DC1700744963 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		288685B71E09D1B000A42107 /* EmojiDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		288685BA1E09D1B000A42107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		288685BC1E09D1B100A42107 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				288685BA1E09D1B000A42107 /* AppDelegate.swift */,
 				288685BC1E09D1B100A42107 /* ViewController.swift */,
+				281CE2461E09DC1700744963 /* Card.swift */,
 				288685C11E09D1B100A42107 /* Assets.xcassets */,
 				288685C31E09D1B100A42107 /* LaunchScreen.storyboard */,
 				288685C61E09D1B100A42107 /* Info.plist */,
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				288685BD1E09D1B100A42107 /* ViewController.swift in Sources */,
+				281CE2471E09DC1700744963 /* Card.swift in Sources */,
 				288685BB1E09D1B000A42107 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 				288685CB1E09D1B100A42107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
